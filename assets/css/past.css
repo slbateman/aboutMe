@@ -1,0 +1,58 @@
+#pastMain {
+    text-align: center;
+    background-color: #285943;
+    width: 85%;
+    padding-top: calc(100vh*.08);
+    padding-bottom: calc(100vh*.08);
+}
+
+table {
+    border: 2px solid black;
+    width: 85%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr{
+    width: 50%;
+}
+td {
+    border: 1px solid black;
+}
+
+.imageCell {
+    width:30%;
+}
+
+.image {
+    background-color: #e77728;
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    padding: 5vh;
+
+}
+
+.horzLine {
+    width:5%;
+}
+hr {
+    border-top: 5px solid #f0eff4;
+}
+
+.dotCell {
+    width: 40px;
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+    background-color: #f0eff4;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.dateLeft {
+    color: #30bced;
+    text-align: left;
+}
