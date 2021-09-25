@@ -1,0 +1,36 @@
+#galleryMain {
+    text-align: center;
+    background-color: #F0EFF4;
+    width: 85%;
+    padding-top: calc(100vh*.08);
+    padding-bottom: calc(100vh*.08);
+}
+
+table {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    width: 50%;
+}
+
+.imageGreen {
+    background-color: #285943;
+    height: 60vh;
+    width: 90%;
+    object-fit: cover;
+    padding: 5vh;
+    margin: 5%
+}
+
+.imageOrange {
+    background-color: #E77728;
+    height: 60vh;
+    width: 90%;
+    object-fit: cover;
+    padding: 5vh;
+    margin: 5%
+}
+
