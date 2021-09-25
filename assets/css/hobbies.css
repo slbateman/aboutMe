@@ -1,0 +1,31 @@
+#hobbiesMain {
+    text-align: center;
+    background-color: #285943;
+    width: 85%;
+    padding-top: calc(100vh*.08);
+    padding-bottom: calc(100vh*.08);
+}
+
+
+.sliderCell {
+    width: 70%;
+    height: 60vh;
+}
+
+.slider {
+    background-color: #e77728;
+    width: 90%;
+    height: 60vh;
+    margin: 5%;
+    object-fit: cover;
+    padding: 4%;
+}
+
+.sliderDescriptionCell {
+    width: 30%;
+}
+
+.sliderDescription {
+    color: #f0eff4;
+    margin: 10%;
+}
