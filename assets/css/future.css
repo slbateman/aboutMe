@@ -1,0 +1,16 @@
+#futureContainer {
+    text-align: center;
+    background-color: #285943;
+    width: 85%;
+    height: 100vh;
+    padding-top: calc(100vh*.08);
+}
+
+.futureSlides {
+    height: 83vh;
+    object-fit: cover;
+}
+
+.imageTitle {
+    background-color: #E77728;
+}
