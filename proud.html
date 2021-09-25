@@ -1,31 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/proud.css">
-    <link rel="stylesheet" href="assets/css/nav.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/proud.css" />
+    <link rel="stylesheet" href="assets/css/nav.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide"
+    />
     <title>Steve Bateman - All About Me</title>
-</head>
-<body>
-    <nav class="nav flex-column">
-        <p class="nav-head">Steve Bateman</p>
-        <a class="nav-link" href="index.html">All About Me</a>
-        <br><br>
-        <a class="nav-link" href="past.html">My Past</a>
-        <a class="nav-link" href="future.html">My Future</a>
-        <a class="nav-link active" aria-current="page" href="proud.html">Proud Achievement</a>
-        <a class="nav-link" href="hobbies.html">Hobbies</a>
-        <a class="nav-link" href="gallery.html">Gallery</a>
-        <br><br><br><br><br><br>
-        <p class="nav-foot">email: stevelbateman@gmail.com</p>
-        <p class="nav-foot">github: <a class="nav-a" href="www.github.com/slbateman">github.com/slbateman</a></p>
-        <br><br>
-        <p class="nav-foot">Copyright © 2021 - Steve Bateman</p>
-        <br>
+  </head>
+  <body>
+    <nav class="nav flex-column sticky-top">
+      <p class="nav-head">Steve Bateman</p>
+      <a class="nav-link" href="index.html">All About Me</a>
+      <br /><br />
+      <a class="nav-link" href="past.html">My Past</a>
+      <a class="nav-link" href="future.html">My Future</a>
+      <a class="nav-link active" aria-current="page" href="proud.html"
+        >Proud Achievement</a
+      >
+      <a class="nav-link" href="hobbies.html">Hobbies</a>
+      <a class="nav-link" href="gallery.html">Gallery</a>
+      <br /><br /><br /><br /><br /><br />
+      <p class="nav-foot">email: stevelbateman@gmail.com</p>
+      <p class="nav-foot">
+        github:
+        <a class="nav-a" href="www.github.com/slbateman"
+          >github.com/slbateman</a
+        >
+      </p>
+      <br /><br />
+      <p class="nav-foot">Copyright © 2021 - Steve Bateman</p>
+      <br />
     </nav>
-</body>
+    <div id="proudMain">
+      <table>
+        <tr>
+          <td class="imageCell">
+            <img
+              class="image"
+              src="assets/images/proud1.jpg"
+              alt="Image of a custom automated machine called a bit press"
+            />
+          </td>
+          <td class="imageDescriptionCell">
+            <h2 class="imageDescriptionLeft">Meet the Bit Press</h2>
+            <p class="imageDescriptionLeft">
+              I was tasked with designing and implementing the electronics and
+              logic of a custom machine. The purpose of the machine is to press
+              the drive end and the drill bit end together and then weld them
+              using a laser.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="imageDescriptionCell">
+            <h2 class="imageDescriptionLeft">The Mechanics</h2>
+            <p class="imageDescriptionLeft">
+              Here you can see the rails, air cyclinders, tubes, wireing and
+              switches. This is where all the motion happens. This chamber is
+              wired for interlocks and fail-safes to keep the operator safe.
+            </p>
+          </td>
+          <td class="imageCell">
+            <img
+              class="image"
+              src="assets/images/proud2.jpg"
+              alt="Image of a mechanical innards of a custom automated machine called a bit press"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="imageCell">
+            <img
+              class="image"
+              src="assets/images/proud3.jpg"
+              alt="Image of a custom automated machine called a bit press"
+            />
+          </td>
+          <td class="imageDescriptionCell">
+            <h2 class="imageDescriptionLeft">The Brains</h2>
+            <p class="imageDescriptionLeft">
+              Here you can see the PLC, motor drivers, solenoids, fuses and
+              wiring. Each component had to be selected to work with the others.
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
 </html>
