@@ -12,7 +12,6 @@
     text-align: center;
     width: 100%;
     color: #f0eff4;
-    font-size: 1.3vw !important;
 }
 
 .nav-link:hover {
@@ -34,7 +33,6 @@
 .nav-foot {
     width: 100%;
     color: #30bced;
-    font-size: .8vw !important;
 }
 
 .nav-a {
